@@ -24,7 +24,6 @@
 		AA2759C61A916EE900BE4981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA2759C91A916EE900BE4981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA2759CE1A916EE900BE4981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AADC872A1A91701C00F34E73 /* PanoView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PanoView-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +73,6 @@
 				AA2759C81A916EE900BE4981 /* Main.storyboard */,
 				AA2759CD1A916EE900BE4981 /* LaunchScreen.xib */,
 				AA2759C21A916EE900BE4981 /* Supporting Files */,
-				AADC872A1A91701C00F34E73 /* PanoView-Bridging-Header.h */,
 			);
 			path = PanoView;
 			sourceTree = "<group>";
@@ -314,7 +312,6 @@
 				INFOPLIST_FILE = PanoView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PanoView/PanoView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -328,7 +325,6 @@
 				INFOPLIST_FILE = PanoView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PanoView/PanoView-Bridging-Header.h";
 			};
 			name = Release;
 		};
